@@ -17,7 +17,7 @@ export function Footer() {
         <div className="container-main py-12">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="col-span-2 md:col-span-1">
-              <h2 className="text-xl font-display font-bold text-primary mb-4">DropShop</h2>
+              <h2 className="text-xl font-display font-bold text-primary mb-4">crazyfinds</h2>
               <p className="text-sm text-muted-foreground">
                 Discover unique products at unbeatable prices. Your one-stop shop for everything cool.
               </p>
@@ -53,7 +53,7 @@ export function Footer() {
 
           <div className="mt-12 pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-sm text-muted-foreground">
-              © 2026 DropShop. All rights reserved.
+              © 2026 crazyfinds. All rights reserved.
             </p>
             <div className="flex gap-4">
               <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">Privacy Policy</a>

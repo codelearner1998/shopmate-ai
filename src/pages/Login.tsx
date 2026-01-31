@@ -34,7 +34,7 @@ export default function Login() {
           {/* Header */}
           <div className="text-center mb-8">
             <Link to="/" className="inline-block mb-6">
-              <h1 className="text-2xl font-display font-bold text-primary">DropShop</h1>
+              <h1 className="text-2xl font-display font-bold text-primary">crazyfinds</h1>
             </Link>
             <h2 className="text-2xl font-bold text-foreground mb-2">Welcome back</h2>
             <p className="text-muted-foreground">Sign in to your account to continue</p>

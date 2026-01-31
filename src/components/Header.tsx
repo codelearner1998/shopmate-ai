@@ -72,7 +72,7 @@ export function Header() {
             {/* Logo */}
             <Link to="/" className="flex-shrink-0">
               <h1 className="text-xl md:text-2xl font-display font-bold text-primary">
-                DropShop
+                crazyfinds
               </h1>
             </Link>
 
