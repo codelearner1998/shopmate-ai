@@ -182,11 +182,11 @@
   }
 
   .category-card {
-    @apply relative overflow-hidden rounded-xl aspect-[4/3] group cursor-pointer;
+    @apply relative overflow-hidden rounded-xl aspect-[4/3] cursor-pointer;
   }
 
   .category-card-overlay {
-    @apply absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent transition-all duration-300 group-hover:from-black/80;
+    @apply absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent transition-all duration-300;
   }
 
   .header-bar {

@@ -7,9 +7,9 @@ interface CategoryCardProps {
 
 export function CategoryCard({ category }: CategoryCardProps) {
   return (
-    <Link 
+    <Link
       to={`/products?category=${encodeURIComponent(category.name)}`}
-      className="category-card animate-fade-in"
+      className="category-card group animate-fade-in"
     >
       <img
         src={category.image}
@@ -17,7 +17,7 @@ export function CategoryCard({ category }: CategoryCardProps) {
         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
         loading="lazy"
       />
-      <div className="category-card-overlay" />
+      <div className="category-card-overlay group-hover:from-black/80" />
       <div className="absolute inset-0 flex flex-col items-center justify-end p-4 text-center">
         <span className="text-white font-semibold text-sm md:text-base leading-tight">
           {category.productCount} {category.name}
